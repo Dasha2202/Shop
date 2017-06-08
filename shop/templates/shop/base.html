@@ -8,14 +8,14 @@
   <link rel="stylesheet" href="{% static "css/bootstrap.min.css" %}">
   <link rel="stylesheet" href="{% static "css/style.css" %}">
 </head>
-<body>
+<body style = background-color:#54ff9f>
   <section id="header">
     <div class="top container">
-      Bourgeois
+      Bourgeois - экзотические фрукты
     </div>
-    <div class="top-bl">
-      <div class="container">
-          <div class="cart">
+    <div class="top-bl" style= color:#000000>
+      <div class="container" style = background-color:#54ff9f>
+          <div class="cart" >
           {% with total_items=cart|length %}
             {% if cart|length > 0 %}
               Ваша корзина:

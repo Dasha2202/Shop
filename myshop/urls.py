@@ -25,7 +25,6 @@ urlpatterns = [
     url(r'^', include('shop.urls', namespace='shop')),
     url(r'^order/', include('orders.urls', namespace='orders')),
     #url(r'^paypal/', include('paypal.standard.ipn.urls')),
-    url(r'^', include('shop.urls', namespace='shop')),
     url(r'^payment/', include('payment.urls', namespace='payment')),
 ]
 if settings.DEBUG:
